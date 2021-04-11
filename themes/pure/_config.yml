@@ -43,6 +43,9 @@ config:
   thumbnail: true # enable posts thumbnail, options: true, false
   excerpt_link: Read More
 
+  isNewTabLinks: false #是否链接打开新标签页
+  autoUnfold: true # 默认展开文章目录
+
 # Pagination
 pagination:
   number: true
@@ -124,6 +127,8 @@ comment:
     repo:  shichanson.github.io #必须. GitHub repository.
     ClientID: afe672d91a06b0a79da0 #必须. GitHub Application Client ID.
     ClientSecret:  7997f5e93a45cb25e6430136016190b68fd100a7 #必须. GitHub Application Client Secret.
+    enableHotKey: true
+    language: zh-CN
   valine: # Valine. https://valine.js.org
     appid: B0DHQryRhputnORnDWxj85S9-gzGzoHsz # your leancloud application appid
     appkey:  k6BTEy2IxxPI70gQbhhDzi7P # your leancloud application appkey
@@ -182,6 +187,7 @@ fb_app_id:
 # profile
 profile:
   enabled: true # Whether to show profile bar
+  articleSelfBlock: true # 关闭文章下方的自我介绍
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: Chanson Shi
