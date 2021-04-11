@@ -115,15 +115,15 @@ comment:
   gitment:
     githubID: shichanson
     repo: shichanson/shichanson.github.io
-    ClientID: ea2c646440f606adc5db
-    ClientSecret: caf51dd2ba60cd55161d0cdfc217031ac71e122c
+    ClientID: afe672d91a06b0a79da0
+    ClientSecret: 7997f5e93a45cb25e6430136016190b68fd100a7
     lazy: false
   gitalk: # gitalk. https://gitalk.github.io/
     owner:  shichanson #必须. GitHub repository 所有者，可以是个人或者组织。
     admin:  shichanson #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
     repo:  shichanson.github.io #必须. GitHub repository.
-    ClientID: ea2c646440f606adc5db #必须. GitHub Application Client ID.
-    ClientSecret:  caf51dd2ba60cd55161d0cdfc217031ac71e122c #必须. GitHub Application Client Secret.
+    ClientID: afe672d91a06b0a79da0 #必须. GitHub Application Client ID.
+    ClientSecret:  7997f5e93a45cb25e6430136016190b68fd100a7 #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
     appid: B0DHQryRhputnORnDWxj85S9-gzGzoHsz # your leancloud application appid
     appkey:  k6BTEy2IxxPI70gQbhhDzi7P # your leancloud application appkey
